@@ -1,0 +1,9 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+
+<script>
+  (function() {
+    var encrypted = CryptoJS.AES.encrypt("I am a hacker", "MYKEY");
+    // U2FsdGVkX1+H/Mqv5QgZzAHAXdoGVE1kY9uyfYJKbaA=
+    console.log(encrypted.toString());
+  })();
+</script>
